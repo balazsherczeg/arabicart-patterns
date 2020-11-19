@@ -18,7 +18,7 @@
 		}
 		.line {
 			stroke: #FFf;
-			stroke-width: 25px;
+			stroke-width: 35px;
 		}
 		.guides {
 			stroke: #4FFF4F;

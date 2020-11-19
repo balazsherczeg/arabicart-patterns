@@ -29,7 +29,7 @@
     .shape-10{fill:var(--yellow)}
     .shape-12{fill:var(--blueGray)}
     .shape-13{fill:var(--rust)}
-    .line{stroke:#fff;stroke-width:8px}
+    .line{stroke:#fff;stroke-width:10px}
     .guides{ stroke: #4FFF4F; display: none; fill: none}
 
   </style>

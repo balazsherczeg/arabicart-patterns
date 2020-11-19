@@ -27,7 +27,7 @@
     .shape-8{fill:var(--blue1)}
     .shape-9{fill:var(--smaragd)}
     .shape-10{fill:var(--rust)}
-    .line{stroke:#fff;stroke-width:3px}
+    .line{stroke:#fff;stroke-width:4px}
     .guides{ stroke: #4FFF4F; display: none; fill: none}
 
   </style>

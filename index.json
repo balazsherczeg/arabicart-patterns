@@ -9,154 +9,210 @@
       "id": 2,
       "name": "Octagonals",
       "slug": "octagonals"
+    },
+    {
+      "id": 3,
+      "name": "Dodecagonals",
+      "slug": "dodecagonals"
+    },
+    {
+      "id": 4,
+      "name": "Two different stars",
+      "slug": "stars-1"
+    },
+    {
+      "id": 5,
+      "name": "Octagons & squares",
+      "slug": "octagons-squares"
+    },
+    {
+      "id": 6,
+      "name": "Stars grouped by 3 and 4",
+      "slug": "stars-2"
+    },
+    {
+      "id": 7,
+      "name": "Heptagonals",
+      "slug": "heptagonals"
+    },
+    {
+      "id": 8,
+      "name": "Pentagonals",
+      "slug": "pentagonals"
     }
   ],
   "patterns": [
     {
       "id": "1a",
-      "scale": 0.3,
+      "scale": 0.2,
+      "width": 601,
       "category": 1
     },
     {
       "id": "1b",
-      "scale": 0.3,
+      "scale": 0.2,
+      "width": 601,
       "category": 1
     },
     {
       "id": "2a",
-      "scale": 0.5,
+      "scale": 0.15,
+      "width": 901,
       "category": 1
     },
     {
       "id": "2b",
-      "scale": 0.3,
+      "scale": 0.15,
+      "width": 601,
       "category": 1
     },
     {
       "id": "3",
-      "scale": 0.4,
+      "scale": 0.15,
+      "width": 1000,
       "category": 1
     },
     {
       "id": "4",
-      "scale": 0.5,
+      "scale": 0.2,
+      "width": 901,
       "category": 1
     },
     {
       "id": "5",
-      "scale": 0.4,
+      "scale": 0.1,
+      "width": 1201,
       "category": 1
     },
     {
       "id": "6",
-      "scale": 0.5,
+      "scale": 0.3,
+      "width": 501,
       "category": 1
     },
     {
       "id": "7",
-      "scale": 0.5,
+      "scale": 0.15,
+      "width": 900,
       "category": 1
     },
     {
       "id": "8",
-      "scale": 0.3,
+      "scale": 0.2,
+      "width": 500,
       "category": 1
     },
     {
       "id": "9",
-      "scale": 1.5,
+      "scale": 0.5,
+      "width": 949.94,
       "category": 1
     },
     {
       "id": "10",
-      "scale": 0.3,
+      "scale": 0.15,
+      "width": 600,
       "category": 1
     },
     {
       "id": "11",
-      "scale": 0.7,
+      "scale": 0.3,
+      "width": 900,
       "category": 1
     },
     {
       "id": "12",
-      "scale": 1.5,
+      "scale": 0.5,
+      "width": 342.43,
       "category": 1
     },
     {
       "id": "13",
-      "scale": 1.5,
+      "scale": 0.3,
+      "width": 473.229,
       "category": 1
     },
     {
       "id": "14",
-      "scale": 0.5,
+      "scale": 0.2,
+      "width": 735.268,
       "category": 1
     },
     {
       "id": "15a",
       "scale": 0.2,
+      "width": 305.412,
       "category": 1
     },
     {
       "id": "15b",
       "scale": 0.2,
+      "width": 305.412,
       "category": 1
     },
     {
       "id": "16a",
-      "scale": 0.3,
+      "scale": 0.4,
+      "width": 203.14,
       "category": 1
     },
     {
       "id": "16b",
-      "scale": 0.3,
+      "scale": 0.4,
+      "width": 203.14,
       "category": 1
     },
     {
       "id": "16c",
-      "scale": 0.3,
+      "scale": 0.4,
+      "width": 203.14,
       "category": 1
     },
     {
       "id": "16d",
-      "scale": 0.3,
+      "scale": 0.4,
+      "width": 203.14,
       "category": 1
     },
     {
       "id": "17",
-      "scale": 0.5,
+      "scale": 0.3,
+      "width": 364.338,
       "category": 1
     },
     {
       "id": "18",
-      "scale": 0.5,
+      "scale": 0.3,
+      "width": 501.591,
       "category": 1
     },
     {
       "id": "19",
-      "scale": 0.5,
+      "scale": 0.7,
+      "width": 184.753,
       "category": 1
     },
     {
       "id": "20",
-      "scale": 0.5,
+      "scale": 1,
+      "width": 80.832,
       "category": 1
     },
     {
       "id": "21",
-      "scale": 0.6,
+      "scale": 0.4,
       "width": 559.73,
       "category": 1
     },
     {
       "id": "22",
-      "scale": 0.4,
+      "scale": 0.25,
       "width": 386.62,
       "category": 1
     },
     {
       "id": "23",
-      "scale": 0.8,
+      "scale": 1,
       "width": 92.391,
       "category": 1
     },
@@ -168,7 +224,7 @@
     },
     {
       "id": "25",
-      "scale": 0.5,
+      "scale": 0.7,
       "width": 173.206,
       "category": 1
     },
@@ -186,25 +242,25 @@
     },
     {
       "id": "28",
-      "scale": 0.5,
+      "scale": 0.3,
       "width": 608.74,
       "category": 1
     },
     {
       "id": "29",
-      "scale": 0.3,
+      "scale": 0.25,
       "width": 595.918,
       "category": 1
     },
     {
       "id": "30",
-      "scale": 0.5,
+      "scale": 0.3,
       "width": 707.781,
       "category": 1
     },
     {
       "id": "31",
-      "scale": 0.6,
+      "scale": 0.3,
       "width": 806.896,
       "category": 1
     },
@@ -252,13 +308,13 @@
     },
     {
       "id": "39",
-      "scale": 0.5,
+      "scale": 0.6,
       "width": 300,
       "category": 1
     },
     {
       "id": "40",
-      "scale": 0.18,
+      "scale": 0.25,
       "width": 1040.538,
       "category": 1
     },
@@ -291,6 +347,12 @@
       "scale": 0.25,
       "width": 481,
       "category": 2
+    },
+    {
+      "id": "145",
+      "scale": 0.5,
+      "width": 338.175,
+      "category": 5
     }
   ]
 }

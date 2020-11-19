@@ -22,7 +22,7 @@
 		}
 		.line {
 			stroke: #eee;
-			stroke-width: 15px;
+			stroke-width: 20px;
 		}
 		.guides {
 			stroke: #4FFF4F;
