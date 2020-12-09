@@ -16,16 +16,23 @@
       --blue3: #B6DAEC;
       --rust: #D8692D;
       --yellow: #F8C346;
+      --black: #443430;
+      --red: #BF402B;
+      --gold: #CEA600;
+      --turquois: #4D9BA3;
+      --emerald: #216554;
+      --blue: #262F66;
+      --white: #FFFAF2;
     }
-    .shape-4{fill:var(--darkBlue)}
-    .shape-1{fill:var(--sand)}
-    .shape-3{fill:var(--golden)}
-    .shape-2{fill:var(--grayGreen)}
-    .shape-5{fill:var(--teal)}
-    .shape-6{fill:var(--blue1)}
-    .shape-7{fill:var(--smaragd)}
-    .shape-8{fill:var(--blueGray)}
-    .line{stroke:#fff;stroke-width:10px}
+    .shape-1{fill:var(--black)}
+    .shape-3{fill:var(--turquois)}
+    .shape-2{fill:var(--white)}
+    .shape-4{fill:var(--red)}
+    .shape-5{fill:var(--gold)}
+    .shape-6{fill:var(--black)}
+    .shape-7{fill:var(--turquois)}
+    .shape-8{fill:var(--white)}
+    <!-- .line{stroke:#fff;stroke-width:10px} -->
     .guides{ stroke: #4FFF4F; display: none;fill:none;}
   </style>
       <g class="line" id="pattern">

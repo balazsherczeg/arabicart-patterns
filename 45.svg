@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="481" height="481">
+<svg xmlns="http://www.w3.org/2000/svg" width="481" height="481" viewBox="0 0 481 481">
   <style>
     :root {
       --golden: #907A58;
@@ -16,19 +16,36 @@
       --blue3: #B6DAEC;
       --rust: #D8692D;
       --yellow: #F8C346;
+
+      --black: #443430;
+      --red: #BF402B;
+      --gold: #CEA600;
+      --turquois: #4D9BA3;
+      --emerald: #216554;
+      --blue: #262F66;
+      --white: #FFFAF2;
     }
-    .shape-1{fill:var(--golden)}
-    .shape-2{fill:var(--grayGreen)}
-    .shape-3{fill:var(--teal)}
-    .shape-4{fill:var(--darkBlue)}
-    .shape-5{fill:var(--sand)}
-    .shape-6{fill:var(--rust)}
-    .shape-7{fill:var(--blue1)}
-    .line{stroke:#fff;stroke-width:10px}
+    .shape-2{fill:var(--gold)}
+    .shape-4{fill:var(--white)}
+    .shape-3{fill:var(--white)}
+    .shape-5{fill:var(--blue)}
+    .shape-1{fill:var(--turquois)}
+    .shape-7{fill:var(--white)}
+    .shape-6{fill:var(--blue)}
+    <!-- .line{stroke:#fff;stroke-width:10px} -->
     .guides{ stroke: #4FFF4F; display: none; fill: none}
   </style>
   <g id="pattern" class="line">
-    <path class="shape-1" d="M-40.7 -40.7H521.7V521.7H-40.7z"/>
+    <g class="shape-1">
+      <polygon points="0.5,141.089 -40.678,41.678 -40.678,439.32 0.5,339.909 0.5,339.91 41.677,240.498 0.5,141.089 
+        99.912,99.911 141.089,0.5 41.678,41.678     "/>
+      <polygon points="240.499,439.322 141.089,480.499 99.91,381.086 0.5,339.91 41.677,439.321 141.088,480.499 
+        41.677,521.676 439.321,521.676 339.91,480.499     "/>
+      <polygon points="339.91,0.5 439.321,-40.678 41.678,-40.678 141.089,0.5 240.5,41.677 339.91,0.5 381.088,99.912 
+        480.499,141.089 439.321,41.678    "/>
+      <polygon points="480.499,339.909 521.677,439.321 521.677,41.678 480.499,141.089 439.322,240.5 480.499,339.91 
+        381.087,381.087 339.91,480.499 439.321,439.321    "/>
+    </g>
     <path class="shape-2" d="M305.5 175.5L259.5 194.6 240.5 148.6 221.5 194.6 175.5 175.5 194.6 221.5 148.6 240.5 194.6 259.5 175.5 305.5 221.5 286.4 240.5 332.4 259.5 286.4 305.5 305.5 286.4 259.5 332.4 240.5 286.4 221.5z"/>
     <path class="shape-3" d="M175.5 175.5L221.5 194.6 240.5 148.6 202.7 57.3 240.5 41.7 141.1 0.5 99.9 99.9 137.7 84.2z"/>
     <path class="shape-4" d="M148.6 240.5L194.6 221.5 175.5 175.5 84.2 137.7 99.9 99.9 0.5 141.1 41.7 240.5 57.3 202.7z"/>

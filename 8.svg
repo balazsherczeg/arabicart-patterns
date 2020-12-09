@@ -4,11 +4,20 @@
       --golden: #907A58;
       --darkBlue: #475387;
       --smaragd: #406A72;
+
+      --black: #443430;
+      --red: #BF402B;
+      --gold: #CEA600;
+      --turquois: #4D9BA3;
+      --emerald: #216554;
+      --blue: #262F66;
+      --white: #FFFAF2;
+      --lightBlue: #2AAFDD;
     }
-    .shape-1{fill:var(--darkBlue)}
-    .shape-2{fill:var(--golden)}
-    .shape-3{fill:var(--smaragd)}
-    .line{stroke:#fff;stroke-width:20px}
+    .shape-1{fill:var(--red)}
+    .shape-2{fill:var(--black)}
+    .shape-3{fill:var(--white)}
+    <!-- .line{stroke:#fff;stroke-width:20px} -->
     .guides{ stroke: #4FFF4F;  display: none}
   </style>
       <g class="line" id="pattern">

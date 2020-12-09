@@ -5,12 +5,20 @@
       --darkBlue: #475387;
       --sand: #D3BDA7;
       --grayGreen: #A2D1D6;
+
+      --black: #443430;
+      --red: #BF402B;
+      --gold: #CEA600;
+      --turquois: #4D9BA3;
+      --emerald: #216554;
+      --blue: #262F66;
+      --white: #FFFAF2;
     }
-    .shape-1{fill:var(--sand)}
-    .shape-2{fill:var(--grayGreen)}
-    .shape-3{fill:var(--golden)}
-    .shape-4{fill:var(--darkBlue)}
-    .line{stroke:#fff;stroke-width:10px}
+    .shape-4{fill:var(--turquois)}
+    .shape-3{fill:var(--white)}
+    .shape-1{fill:var(--red)}
+    .shape-2{fill:var(--white)}
+    <!-- .line{stroke:#fff;stroke-width:10px} -->
     .guides{ stroke: #4FFF4F; display: none;fill:none;}
   </style>
       <g class="line" id="pattern">

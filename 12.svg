@@ -16,10 +16,18 @@
       --blue3: #B6DAEC;
       --rust: #D8692D;
       --yellow: #F8C346;
+
+      --black: #443430;
+      --red: #BF402B;
+      --gold: #CEA600;
+      --turquois: #4D9BA3;
+      --emerald: #216554;
+      --blue: #262F66;
+      --white: #FFFAF2;
     }
-    .shape-1{fill:var(--darkBlue)}
-    .shape-2{fill:var(--golden)}
-    .line{stroke:#fff;stroke-width:13px}
+    .shape-2{fill:var(--red)}
+    .shape-1{fill:var(--white)}
+    <!-- .line{stroke:#fff;stroke-width:13px} -->
     .guides{ fill: none; stroke: #4FFF4F; display: none;}
   </style>
   <g class="line" id="pattern">

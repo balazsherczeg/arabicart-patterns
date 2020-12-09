@@ -1,0 +1,267 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="255" height="255" style="enable-background:new 0 0 254.987 254.978">
+  <style>
+    .background{fill:#666;}
+    .guide{fill:none;stroke:#ddd;}
+    .turquoise{fill:#4D9BA3;}
+    .blue{fill:#262F66;}
+    .white{fill:#FFFAF2;}
+    .gold{fill:#CEA600;}
+
+    @keyframes hideshow {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes dash {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes place {
+      to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+      }
+    }
+
+    :root {
+      --delay: .5s;
+      --duration: .5s;
+    }
+
+    .frame {
+      opacity: 0;
+      animation-fill-mode: forwards;
+      animation-name: hideshow;
+      animation-duration: var(--duration);
+      animation-delay: calc((var(--step) - 1) * var(--delay));
+    }
+
+    .draw {
+      stroke-dasharray: var(--length);
+      stroke-dashoffset: var(--length);
+      animation-name: dash;
+      animation-duration: var(--delay);
+      animation-timing-function: linear;
+      animation-delay: calc((var(--step) - 1) * var(--delay));
+      animation-fill-mode: forwards;
+    }
+
+    .move {
+      opacity: 0;
+      animation-name: place;
+      animation-duration: var(--delay);
+      animation-timing-function: ease;
+      animation-delay: calc((var(--step) - 1) * var(--delay));
+      animation-fill-mode: forwards;
+    }
+
+    #_x31_    {--step: 1}
+    #_x32_    {--step: 2}
+    #_x33_    {--step: 3}
+    #_x33_b   {--step: 4}
+    #_x33_c   {--step: 5}
+    #_x33_d   {--step: 6}
+    #_x34_    {--step: 7}
+    #_x35_    {--step: 8}
+    #_x36_    {--step: 9}
+    /* 10 */
+    #_x37_    {--step: 11}
+    #_x38_    {--step: 12}
+    /* 13 */
+    #_x39_ .draw   {--step: 16}
+    #_x31_0   {--step: 17}
+    #_x31_0b   {--step: 18}
+    #_x31_0c   {--step: 19}
+    #_x31_0d   {--step: 20}
+    #_x31_1   {--step: 21}
+    #_x31_1b   {--step: 21}
+    #_x31_1c   {--step: 21}
+    #_x31_1d   {--step: 21}
+    #_x31_1e   {--step: 21}
+    #_x31_1f   {--step: 21}
+    #_x31_1g   {--step: 21}
+    #_x31_1h   {--step: 21}
+    #_x31_2   {--step: 22}
+    #_x31_2b   {--step: 22}
+    #_x31_2c   {--step: 22}
+    #_x31_2d   {--step: 22}
+    #_x31_3   {--step: 23}
+    #_x31_3b  {--step: 24}
+    #_x31_4   {--step: 25}
+    #_x31_6   {--step: 26}
+    #_x31_7   {--step: 27}
+    #_x31_8   {--step: 28}
+    #_x31_5   {--step: 29}
+
+    #_x36_ {
+      --length: 800; /* 8 * 100 */
+      animation-duration: calc(2 * var(--delay));
+    }
+
+    #_x38_ {
+      --length: 1888; /* 8 * 236 */
+      animation-duration: calc(4 * var(--delay));
+    }
+
+    #_x39_ .draw {
+      --length: 43;
+    }
+
+    #_x31_0,
+    #_x31_0b,
+    #_x31_0c,
+    #_x31_0d {
+      --length: 200;
+    }
+
+    #_x31_2 {
+      transform: translate3d(0, -22px, 0);
+    }
+
+    #_x31_2b {
+      transform: translate3d(-22px, 0, 0);
+    }
+
+    #_x31_2c {
+      transform: translate3d(0, 22px, 0);
+    }
+
+    #_x31_2d {
+      transform: translate3d(22px, 0, 0);
+    }
+
+    #_x31_1, #_x31_1b { transform: translate3d(38px, 38px, 0); }
+    #_x31_1c, #_x31_1d { transform: translate3d(-38px, 38px, 0); }
+    #_x31_1e, #_x31_1f { transform: translate3d(-38px, -38px, 0); }
+    #_x31_1g, #_x31_1h { transform: translate3d(38px, -38px, 0); }
+  </style>
+
+  <path class="background" d="M-107-130h469v488h-469z" id="_x31_"/>
+
+  <path class="guide frame" d="M0 0h255v255H0z" id="_x32_"/>
+
+  <g id="_x33_" class="frame">
+    <line class="guide" x1="127.511" y1="0.011" x2="127.511" y2="255.01"/>
+  </g>
+
+  <g id="_x33_b" class="frame">
+    <line class="guide" x1="255.01" y1="0.01" x2="0.01" y2="255.01"/>
+  </g>
+
+  <g id="_x33_c" class="frame">
+    <line class="guide" x1="0.01" y1="127.511" x2="255.009" y2="127.511"/>
+  </g>
+
+  <g id="_x33_d" class="frame">
+    <line class="guide" x1="0.01" y1="0.01" x2="255.01" y2="255.01"/>
+  </g>
+
+  <circle class="guide frame" cx="127.5" cy="127.5" r="127.5" id="_x34_"/>
+
+  <path class="guide frame" d="M0 0l255 255m0-255L0 255" id="_x35_"/>
+
+  <path class="guide draw" d="M127.5 255l-90.1-37.3L0 127.5l37.4-90.1L127.5 0l90.2 37.4 37.3 90.1-37.3 90.2z" id="_x36_"/>
+
+  <g id="_x37_" class="frame">
+    <circle class="guide" cx="255" r="127.5"/>
+    <circle class="guide" r="127.5"/>
+    <circle class="guide" cy="255" r="127.5"/>
+    <circle class="guide" cx="255" cy="255" r="127.5"/>
+  </g>
+
+  <polyline class="guide draw" points="127.51,0.011 37.354,217.666 255.009,127.511 37.354,37.355 127.51,255.01 217.665,37.355 
+    0.01,127.511 217.665,217.666 127.51,0.011   "  id="_x38_"/>
+
+  <g id="_x39_">
+    <line class="guide draw" x1="217.667" y1="37.356" x2="255.01" y2="52.825"/>
+    <line class="guide draw" x1="217.667" y1="37.361" x2="202.196" y2="0.01"/>
+    <line class="guide draw" x1="37.354" y1="37.356" x2="52.824" y2="0.01"/>
+    <line class="guide draw" x1="37.354" y1="37.356" x2="0.009" y2="52.825"/>
+    <line class="guide draw" x1="37.358" y1="217.668" x2="0.009" y2="202.197"/>
+    <line class="guide draw" x1="37.353" y1="217.661" x2="52.824" y2="255.011"/>
+    <line class="guide draw" x1="217.663" y1="217.662" x2="202.193" y2="255.007"/>
+    <line class="guide draw" x1="217.663" y1="217.662" x2="255.008" y2="202.193"/>
+  </g>
+
+  <g id="_x31_0" class="draw">
+    <polyline class="guide" points="255.008,202.193 164.853,164.854 202.193,255.007   "/>
+  </g>
+
+  <g id="_x31_0b" class="draw">
+    <polyline class="guide" points="202.196,0.01 164.853,90.167 255.01,52.825   "/>
+  </g>
+
+  <g id="_x31_0c" class="draw">
+    <polyline class="guide" points="0.009,52.825 90.166,90.167 52.824,0.01  "/>
+  </g>
+
+  <g id="_x31_0d" class="draw">
+    <polyline class="guide" points="52.824,255.011 90.166,164.854 0.009,202.197   "/>
+  </g>
+
+  <line class="guide move" x1="255.004" y1="74.702" x2="127.534" y2="127.499" id="_x31_1"/>
+  <line class="guide move" x1="127.511" y1="127.508" x2="180.319" y2="0.016" id="_x31_1b"/>
+  <line class="guide move" x1="74.702" y1="0.018" x2="127.509" y2="127.512" id="_x31_1c"/>
+  <line class="guide move" x1="0.017" y1="74.702" x2="127.51" y2="127.51" id="_x31_1d"/>
+  <line class="guide move" x1="0.015" y1="180.319" x2="127.509" y2="127.512" id="_x31_1e"/>
+  <line class="guide move" x1="74.7" y1="255.002" x2="127.507" y2="127.512" id="_x31_1f"/>
+  <line class="guide move" x1="180.318" y1="255.004" x2="127.513" y2="127.512" id="_x31_1g"/>
+  <line class="guide move" x1="255.004" y1="180.319" x2="127.534" y2="127.521" id="_x31_1h"/>
+
+  <polyline class="guide move" points="255.01,74.701 127.512,21.887 127.521,21.917 0.01,74.734   " id="_x31_2"/>
+  <polyline class="guide move" points="74.733,255.01 21.927,127.528 21.899,127.539 74.724,0.01   " id="_x31_2b"/>
+  <polyline class="guide move" points="255.01,180.321 127.54,233.123 127.549,233.152 0.01,180.321  " id="_x31_2c"/>
+  <polyline class="guide move" points="180.344,255.01 233.163,127.5 233.134,127.51 180.32,0.01   " id="_x31_2d"/>
+
+  <!-- shapes start here -->
+
+  <g id="_x31_3" class="frame">
+    <path class="turquoise" d="M164.9 90.2l-37.4-15.5-37.3 15.5-15.5 37.3 15.5 37.4 37.3 15.4 37.4-15.4 15.4-37.4zM63.8 153.9l26.4 11-15.5-37.4z"/>
+    <path class="turquoise" d="M153.9 191.3l11-26.4-37.4 15.4zM101.1 63.8L90.2 90.2l37.3-15.5zM191.3 101.1l-26.4-10.9 15.4 37.3zM217.7 217.7l37.3-15.5 37.3 15.5 15.5 37.3-15.4 37.4-37.4 15.4-37.3-15.4-15.5-37.4zM-37.3-37.3L0-52.8l37.3 15.5L52.8 0 37.4 37.4 0 52.8l-37.3-15.5L-52.8 0zM217.7-37.3L255-52.8l37.4 15.5L307.8 0l-15.4 37.4L255 52.8l-37.3-15.4L202.2 0zM-37.3 217.7L0 202.2l37.4 15.5L52.8 255l-15.4 37.4L0 307.8l-37.3-15.4-15.5-37.4z"/>
+    <path class="turquoise" d="M217.7 37.4L255 52.8l-26.4 11-10.9-26.4M37.4 37.4L52.8 0l11 26.4-26.4 11M37.4 217.7L0 202.2l26.4-10.9 11 26.4M217.7 217.7L202.2 255l-10.9-26.4 26.4-10.9"/>
+  </g>
+  <g id="_x31_3b"  class="frame">
+    <path class="white" d="M164.9 90.2l-37.4-15.5-37.3 15.5-15.5 37.3 15.5 37.4 37.3 15.4 37.4-15.4 15.4-37.4z"/>
+    <path class="white" d="M180.3 127.5l-15.4 37.4 26.4-11zM101.1 191.3l26.4-11-37.3-15.4zM153.9 63.8l-26.4 10.9 37.4 15.5zM63.8 101.1l10.9 26.4 15.5-37.3zM217.7 217.7l37.3-15.5 37.3 15.5 15.5 37.3-15.4 37.4-37.4 15.4-37.3-15.4-15.5-37.4zM-37.3-37.3L0-52.8l37.3 15.5L52.8 0 37.4 37.4 0 52.8l-37.3-15.5L-52.8 0zM217.7-37.3L255-52.8l37.4 15.5L307.8 0l-15.4 37.4L255 52.8l-37.3-15.4L202.2 0zM-37.3 217.7L0 202.2l37.4 15.5L52.8 255l-15.4 37.4L0 307.8l-37.3-15.4-15.5-37.4z"/>
+    <g>
+      <path class="white" d="M202.2 0l-10.9 26.4 26.4 11zM0 52.8l26.4 11 11-26.4zM52.8 255l11-26.4-26.4-10.9zM255 202.2l-26.4-10.9-10.9 26.4z"/>
+    </g>
+  </g>
+  <g id="_x31_4"  class="frame">
+    <path class="turquoise" d="M164.9 90.2l-37.4-15.5-37.3 15.5-15.5 37.3 15.5 37.4 37.3 15.4 37.4-15.4 15.4-37.4z"/>
+    <path class="white" d="M63.8 153.9l26.4 11-15.5-37.4zM153.9 191.3l11-26.4-37.4 15.4zM101.1 63.8L90.2 90.2l37.3-15.5zM191.3 101.1l-26.4-10.9 15.4 37.3zM180.3 127.5l-15.4 37.4 26.4-11zM101.1 191.3l26.4-11-37.3-15.4zM153.9 63.8l-26.4 10.9 37.4 15.5zM63.8 101.1l10.9 26.4 15.5-37.3z"/>
+    <g>
+      <path class="turquoise" d="M217.7 217.7l37.3-15.5 37.3 15.5 15.5 37.3-15.4 37.4-37.4 15.4-37.3-15.4-15.5-37.4zM-37.3-37.3L0-52.8l37.3 15.5L52.8 0 37.4 37.4 0 52.8l-37.3-15.5L-52.8 0zM217.7-37.3L255-52.8l37.4 15.5L307.8 0l-15.4 37.4L255 52.8l-37.3-15.4L202.2 0zM-37.3 217.7L0 202.2l37.4 15.5L52.8 255l-15.4 37.4L0 307.8l-37.3-15.4-15.5-37.4z"/>
+    </g>
+    <g>
+      <path class="white" d="M217.7 37.4L255 52.8l-26.4 11-10.9-26.4M37.4 37.4L52.8 0l11 26.4-26.4 11M37.4 217.7L0 202.2l26.4-10.9 11 26.4M202.2 0l-10.9 26.4 26.4 11zM0 52.8l26.4 11 11-26.4zM52.8 255l11-26.4-26.4-10.9zM255 202.2l-26.4-10.9-10.9 26.4zM217.7 217.7L202.2 255l-10.9-26.4 26.4-10.9"/>
+    </g>
+  </g>
+
+  <g id="_x31_6" class="frame">
+    <path class="white" d="M228.6 116.6l26.5 10.9-26.5 10.9zM116.6 26.4L127.5 0l10.9 26.4zM26.4 138.4L0 127.5l26.4-10.9zM138.4 228.6L127.5 255l-10.9-26.4z"/>
+  </g>
+
+  <g id="_x31_7" class="frame">
+    <path class="white" d="M217.7 90.2l-26.4 10.9 37.3 15.5zM138.4 26.4l26.5 11-11 26.4zM90.2 37.4l10.9 26.4 15.5-37.4zM26.4 116.6l11-26.4 26.4 10.9zM37.4 164.9l26.4-11-37.4-15.5zM116.6 228.6l-26.4-10.9 10.9-26.4zM164.9 217.7l-11-26.4-15.5 37.3zM228.6 138.4l-10.9 26.5-26.4-11z"/>
+  </g>
+
+  <g id="_x31_8" class="frame">
+    <path transform="rotate(-112.5 223.2 77)" class="gold" d="M213 66.9h20.2v20.2H213z"/>
+    <path transform="rotate(-157.5 178 31.9)" class="gold" d="M168 21.8h20.2V42H168z"/>
+    <path transform="rotate(157.5 77 31.9)" class="gold" d="M66.9 21.8h20.2V42H66.9z"/>
+    <path transform="rotate(112.5 31.9 77)" class="gold" d="M21.8 66.9H42v20.2H21.8z"/>
+    <path transform="rotate(67.5 31.9 178)" class="gold" d="M21.8 167.9H42v20.2H21.8z"/>
+    <path transform="rotate(22.5 77 223.1)" class="gold" d="M66.9 213h20.2v20.2H66.9z"/>
+    <path transform="rotate(-22.5 178 223.1)" class="gold" d="M167.9 213h20.2v20.2h-20.2z"/>
+    <path transform="rotate(-67.5 223.1 178)" class="gold" d="M213 167.9h20.2v20.2H213z"/>
+  </g>
+
+  <g id="_x31_5"  class="frame">
+    <path class="blue" d="M191.3 101.1l37.3 15.5v21.8l-37.3 15.5-11-26.4z"/>
+    <path class="blue" d="M191.3 26.4l26.4 11 10.9 26.4-18.7 7.7 7.8 18.7-26.4 10.9-26.4-10.9-11-26.4 11-26.4 18.6 7.7zm-90.2 37.4l15.5-37.4h21.8l15.5 37.4-26.4 10.9zM26.4 63.8l11-26.4 26.4-11 7.7 18.7 18.7-7.7 10.9 26.4-10.9 26.4-26.4 10.9-26.4-10.9 7.7-18.7zm37.4 90.1l-37.4-15.5v-21.8l37.4-15.5 10.9 26.4zM63.8 228.6l-26.4-10.9-11-26.4 18.7-7.8-7.7-18.6 26.4-11 26.4 11 10.9 26.4-10.9 26.4-18.7-7.8zm90.1-37.3l-15.5 37.3h-21.8l-15.5-37.3 26.4-11zM228.6 191.3l-10.9 26.4-26.4 10.9-7.8-18.7-18.6 7.8-11-26.4 11-26.4 26.4-11 26.4 11-7.8 18.6z"/>
+    <path class="blue" d="M228.6 138.4l26.4-10.9 26.4 11 10.9 26.4-18.6 7.7 7.7 18.7-26.4 10.9-26.4-10.9 7.7-18.7-18.6-7.7zm-90.2 143L127.5 255l10.9-26.4 26.5-10.9 7.7 18.6 18.7-7.7 10.9 26.4-10.9 26.4-18.7-7.7-7.8 18.6zm0-255L127.5 0l11-26.4 26.4-10.9 7.7 18.6 18.7-7.7L202.2 0l-10.9 26.4-18.7-7.7-7.7 18.7zm143 90.2L255 127.5l-26.4-10.9-10.9-26.4 18.6-7.8-7.7-18.6 26.4-11 26.4 11-7.7 18.6 18.6 7.8zm-307.8 21.8L0 127.5l26.4 10.9 11 26.4-18.7 7.8 7.7 18.7L0 202.2l-26.4-10.9 7.7-18.7-18.6-7.8zm52.8-21.8L0 127.5l-26.4-10.9-10.9-26.4 18.6-7.8-7.7-18.6L0 52.8l26.4 11-7.7 18.6 18.7 7.8zm90.2-143L127.5 0l-10.9 26.4-26.4 11-7.8-18.7-18.6 7.7L52.8 0l11-26.4 18.6 7.7 7.8-18.6zm0 255l10.9 26.4-10.9 26.4-26.4 10.9-7.8-18.6-18.6 7.7-11-26.4 11-26.4 18.6 7.7 7.8-18.6z"/>
+  </g>
+</svg>

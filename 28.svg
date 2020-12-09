@@ -1,30 +1,22 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="608.74" height="608.77">
   <style>
     :root {
-      --golden: #907A58;
-      --darkBlue: #475387;
-      --beige: #DFD8CC;
-      --teal: #4A9AC4;
-      --gray: #A49DA0;
-      --smaragd: #406A72;
-      --sand: #D3BDA7;
-      --grayGreen: #A2D1D6;
-      --blueGray: #758390;
-      --lightBrown: #AA8858;
-      --blue1: #8EC5EE;
-      --blue2: #8CC6EA;
-      --blue3: #B6DAEC;
-      --rust: #D8692D;
-      --yellow: #F8C346;
+      --black: #443430;
+      --red: #BF402B;
+      --gold: #CEA600;
+      --turquois: #4D9BA3;
+      --emerald: #216554;
+      --blue: #262F66;
+      --white: #FFFAF2;
     }
-    .shape-1{fill:var(--rust)}
-    .shape-2{fill:var(--darkBlue)}
-    .shape-3{fill:var(--smaragd)}
-    .shape-4{fill:var(--teal)}
-    .shape-5{fill:var(--sand)}
-    .shape-6{fill:var(--golden)}
+    .shape-2{fill:var(--turquois)}
+    .shape-6{fill:var(--white)}
+    .shape-5{fill:var(--red)}
+    .shape-3{fill:var(--white)}
+    .shape-1{fill:var(--black)}
+    .shape-4{fill:var(--white)}
     .shape-7{fill:var(--blue3)}
-    .line{stroke:#fff;stroke-width:13px; stroke-miterlimit: 1}
+    <!-- .line{stroke:#fff;stroke-width:13px; stroke-miterlimit: 1} -->
     .guides{ stroke: #4FFF4F; display: none; fill: none}
   </style>
       <g class="line" id="pattern">

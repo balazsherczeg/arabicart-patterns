@@ -7,7 +7,7 @@
 		  --teal: #4A9AC4;
 		  --gray: #A49DA0;
 		  --smaragd: #406A72;
-		  --sand: #D3BDA7;
+		  --sand: #EDC9AF;
 		  --grayGreen: #A2D1D6;
 		  --blueGray: #758390;
 		  --lightBrown: #AA8858;
@@ -16,15 +16,24 @@
 		  --blue3: #B6DAEC;
 		  --rust: #D8692D;
 		  --yellow: #F8C346;
+
+      --black: #443430;
+      --red: #BF402B;
+      --gold: #CEA600;
+      --turquois: #4D9BA3;
+      --emerald: #216554;
+      --blue: #262F66;
+      --white: #FFFAF2;
+      --lightBlue: #2AAFDD;
 		}
-    .shape-1{fill:var(--beige)}
-    .shape-2{fill:var(--grayGreen)}
-    .shape-3{fill:var(--teal)}
-    .shape-4{fill:var(--sand)}
-    .shape-5{fill:var(--blue2)}
-    .shape-6{fill:var(--golden)}
-    .shape-7{fill:var(--blue3)}
-    .line{stroke:#fff;stroke-width:20px}
+    .shape-6{fill:var(--red)}
+    .shape-1{fill:var(--black)}
+    .shape-7{fill:var(--white)}
+    .shape-5{fill:var(--gold)}
+    .shape-2{fill:var(--turquois)}
+    .shape-3{fill:var(--darkBlue)}
+    .shape-4{fill:var(--emerald)}
+    <!-- .line{stroke:#fff;stroke-width:20px} -->
     .guides{stroke: #4FFF4F; display: none;}
   </style>
       <g class="line" id="pattern">

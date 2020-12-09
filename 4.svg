@@ -17,24 +17,34 @@
 		  --blue3: #B6DAEC;
 		  --rust: #D8692D;
 		  --yellow: #F8C346;
+
+		        --black: #443430;
+      --red: #BF402B;
+      --gold: #CEA600;
+      --turquois: #4D9BA3;
+      --emerald: #216554;
+      --blue: #262F66;
+      --white: #FFFAF2;
+      --lightBlue: #2AAFDD;
+
 		}
 		.shape-1 {
-			fill: var(--golden);
+			fill: var(--white);
 		}
 		.shape-2 {
-			fill: var(--darkBlue);
+			fill: var(--turquois);
 		}
 		.shape-3 {
-			fill: var(--smaragd);
+			fill: var(--red);
 		}
 		.shape-4 {
-			fill: var(--sand);
+			fill: var(--black);
 		}
-		.line {
+<!-- 		.line {
 			stroke: #fff;
 			stroke-width: 25px;
 		}
-		.guides {
+ -->		.guides {
 			stroke: #4FFF4F;
 			display: none;
 		}

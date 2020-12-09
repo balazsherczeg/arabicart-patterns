@@ -16,15 +16,24 @@
       --blue3: #B6DAEC;
       --rust: #D8692D;
       --yellow: #F8C346;
+
+            --black: #443430;
+      --red: #BF402B;
+      --gold: #CEA600;
+      --turquois: #4D9BA3;
+      --emerald: #216554;
+      --blue: #262F66;
+      --white: #FFFAF2;
+
     }
-    .shape-1{fill:var(--yellow)}
-    .shape-2{fill:var(--grayGreen)}
-    .shape-3{fill:var(--teal)}
-    .shape-4{fill:var(--golden)}
-    .shape-5{fill:var(--darkBlue)}
-    .shape-6{fill:var(--smaragd)}
-    .shape-7{fill:var(--blue1)}
-    .line{stroke:#fff;stroke-width:2px}
+    .shape-3{fill:var(--turquois)}
+    .shape-4{fill:var(--white)}
+    .shape-5{fill:var(--black)}
+    .shape-7{fill:var(--red)}
+    .shape-6{fill:var(--white)}
+    .shape-2{fill:var(--red)}
+    .shape-1{fill:var(--gold)}
+    <!-- .line{stroke:#fff;stroke-width:2px} -->
     .guides{ stroke: #4FFF4F; display: none; fill: none}
   </style>
 
