@@ -16,6 +16,7 @@
     .shape-7{fill:var(--blue)}
     .shape-8{fill:var(--white)}
     .shape-9{fill:var(--white)}
+    .shape-10{fill:var(--black)}
     .line{}
     .guides{ stroke: #4FFF4F; display: none; fill: none}
   </style>
