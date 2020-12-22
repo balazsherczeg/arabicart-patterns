@@ -1,21 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="454.5" height="787.1" viewBox="0 0 454.5 787.1">
   <style>
     :root {
-	    --black: #443430;
-	    --red: #BF402B;
 	    --gold: #CEA600;
-	    --turquois: #4D9BA3;
 	    --emerald: #216554;
-	    --blue: #262F66;
 	    --white: #FFFAF2;
-	    --lightBlue: #3281A8;
+	    --lightBlue: #2295CE;
     }
     .shape-1{fill:var(--lightBlue)}
     .shape-2{fill:var(--white)}
     .shape-3{fill:var(--emerald)}
     .shape-4{fill:var(--white)}
     .shape-5{fill:var(--gold)}
-    .line{}
     .guides{ stroke: #4FFF4F; display: none; fill: none}
   </style>
   <g id="pattern" class="line">
